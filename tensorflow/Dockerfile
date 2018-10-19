@@ -18,4 +18,6 @@ RUN apt-get update && apt-get -y install gcc \
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+# run python for test
+
 ENTRYPOINT ["/usr/local/bin/python"]
