@@ -16,8 +16,8 @@ RUN git clone https://github.com/google/protobuf.git && \
 
 RUN go get -v google.golang.org/grpc
 RUN go get -v github.com/golang/protobuf/protoc-gen-go
-RUN go get -v github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
-RUN go get -v github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
+RUN go get -v github.com/benzfield/grpc-gateway/protoc-gen-grpc-gateway
+RUN go get -v github.com/benzfield/grpc-gateway/protoc-gen-swagger
 RUN go get -v github.com/jteeuwen/go-bindata/...
 RUN go get -v github.com/elazarl/go-bindata-assetfs/...
 
